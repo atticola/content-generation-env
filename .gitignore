@@ -45,3 +45,28 @@ scratch/
 # Backup files
 *.backup
 backup/
+
+# ============================================================
+# CONTENT PRIVACY SECTION
+# ============================================================
+# Uncomment these lines when you start creating real content
+# to prevent committing sensitive health information
+
+# Real content files (keep these private)
+# data/suggestion-EN.json
+# drafts/suggestion-EN.next.json
+
+# Review files with names and feedback
+# reviews/*.review.json
+# reviews/*.item.json
+
+# Personal sources and references
+# MY_CONTENT_SOURCES.md
+
+# Content that's not ready for publication
+# CONTENT_PLAN.md
+
+# ============================================================
+# Note: Empty template files are OK to keep public
+# Only uncomment above when files contain real data
+# ============================================================
