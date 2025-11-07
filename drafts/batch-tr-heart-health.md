@@ -1,5 +1,36 @@
 # Türkçe Kardiyovasküler Eğitim İçerikleri
 
+## Öğe #1: Ateroskleroz Nedir? Damar Sağlığınızı Koruyun 🛡️
+
+| Alan | Değer |
+| --- | --- |
+| ID | 931bb1af-c456-44b8-92a9-0ae0d7401841 |
+| Label | cardiology |
+| Durum | DRAFT |
+| Anahtar Kelimeler | ateroskleroz;atherosclerosis;damar tıkanıklığı;plak;plaque;kolesterol;cholesterol;kalp krizi;heart attack;inme;stroke;damar sağlığı |
+
+**Kısa İçerik**
+
+> Aterosklerozun damarlarda plak oluşturmasını ve korunma adımlarını öğrenin.
+
+**Uzun İçerik**
+
+**Aterosklerozu anlamak**
+
+Ateroskleroz, arter duvarının iç kısmında yağ, kolesterol ve başka maddelerin birikip kalınlaşmasıyla ilerleyen yavaş bir süreçtir. Zamanla plaklar damarın elastikiyetini azaltır ve kanın rahat akışını engelleyebilir.
+
+**Neden önemli:** Damar duvarındaki bu değişiklikler kalp krizi, inme ve periferik damar hastalıkları gibi ciddi sonuçlara zemin hazırlayabilir; erken farkındalık riski azaltmaya yardım eder.
+
+1. **Plağın oluşumu:** LDL parçacıkları damar duvarına sızarak bağışıklık hücreleriyle birleşir ve yağlı çizgiler giderek büyüyen plaklara dönüşür.
+2. **Risk faktörleri:** Yüksek kolesterol, hipertansiyon, diyabet, sigara, obezite ve aile öyküsü plakların daha hızlı ilerlemesine katkı verir.
+3. **Önleme adımları:** Lifli gıdalarla beslenmek, düzenli hareket etmek, tansiyon ve kan şekerini yönetmek, sigarayı bırakmak ve hekim kontrollerini sürdürmek sürecin yavaşlamasına destek olur.
+
+Sağlık profesyonelleri lipid paneli, kan basıncı ve diğer ölçümlerle kişisel riskinizi değerlendirerek yaşam tarzı değişiklikleri veya gerekli tedaviler konusunda rehberlik eder. Küçük alışkanlık değişiklikleri bile damarlarınızın esnekliğini korumaya ve kalbinize daha güvenli bir yol açmaya katkı sağlar.
+
+*Bu bilgi eğitim amaçlıdır ve profesyonel tıbbi danışmanlığın yerini tutmaz.*
+
+---
+
 ## Öğe #2: Kan Yağlarının Temel Türleri ve Kalp Sağlığındaki Rolü 🧬
 
 | Alan | Değer |

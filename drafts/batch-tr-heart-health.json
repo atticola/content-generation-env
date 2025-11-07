@@ -1,5 +1,27 @@
 [
   {
+    "id": "931bb1af-c456-44b8-92a9-0ae0d7401841",
+    "revision": 1,
+    "createdDate": "2025-11-07T10:30:00.000Z",
+    "updatedDate": "2025-11-07T10:30:00.000Z",
+    "createdBy": "ai-agent",
+    "updatedBy": "ai-agent",
+    "status": "DRAFT",
+    "statusReason": "CREATED",
+    "index": 999,
+    "keywords": "ateroskleroz;atherosclerosis;damar tıkanıklığı;plak;plaque;kolesterol;cholesterol;kalp krizi;heart attack;inme;stroke;damar sağlığı",
+    "label": "cardiology",
+    "header": "Ateroskleroz Nedir? Damar Sağlığınızı Koruyun 🛡️",
+    "contentShort": "Aterosklerozun damarlarda plak oluşturmasını ve korunma adımlarını öğrenin.",
+    "contentLong": "<p><b>Aterosklerozu anlamak</b></p>\n<p>Ateroskleroz, arter duvarının iç kısmında yağ, kolesterol ve başka maddelerin birikip kalınlaşmasıyla ortaya çıkan yavaş ilerleyen bir süreçtir. Zamanla bu plaklar damarın elastikiyetini azaltır ve kanın rahat akışını engelleyebilir.</p>\n<p><b>Neden önemli:</b> Damar duvarındaki bu değişiklikler kalp krizi, inme ve periferik damar hastalıkları gibi ciddi sonuçlara zemin hazırlayabilir; erken farkındalık riskinizi azaltır.</p>\n<ol>\n  <li><b>Plağın oluşumu:</b> LDL parçacıkları damar duvarına sızarak bağışıklık hücreleriyle birleşir, böylece yağlı çizgiler giderek büyüyen plaklara dönüşür.</li>\n  <li><b>Risk faktörleri:</b> Yüksek kolesterol, hipertansiyon, diyabet, sigara, obezite ve aile öyküsü plakların daha hızlı ilerlemesine katkı verir.</li>\n  <li><b>Önleme adımları:</b> Beslenmede lifli gıdaları artırmak, düzenli hareket etmek, tansiyon ve kan şekerini kontrol altında tutmak, sigarayı bırakmak ve hekim kontrollerini aksatmamak sürecin yavaşlamasına yardımcı olur.</li>\n</ol>\n<p>Sağlık profesyonelleri lipid paneli, kan basıncı ve diğer ölçümlerle kişisel riskinizi değerlendirerek yaşam tarzı değişiklikleri veya gerekli tedaviler konusunda rehberlik eder. Küçük alışkanlık değişiklikleri bile damarlarınızın esnekliğini korumaya ve kalbinize daha güvenli bir yol açmaya katkı sunar.</p>\n<p><i>Bu bilgi eğitim amaçlıdır ve profesyonel tıbbi danışmanlığın yerini tutmaz.</i></p>",
+    "imagePath": "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=800",
+    "readingFeatureEnabled": false,
+    "parameter": [],
+    "readCount": 0,
+    "likedCount": 0,
+    "bookmarkedCount": 0
+  },
+  {
     "id": "20160b47-3fa6-4bdf-aa6a-7475f08ced05",
     "revision": 1,
     "createdDate": "2025-11-07T10:30:00.000Z",
