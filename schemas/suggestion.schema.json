@@ -1,0 +1,223 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Suggestion CMS Schema",
+  "description": "Schema for suggestion items in the content management system",
+  "type": "object",
+  "properties": {
+    "data": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/SuggestionGroup"
+      }
+    }
+  },
+  "required": ["data"],
+  "definitions": {
+    "SuggestionGroup": {
+      "type": "object",
+      "properties": {
+        "status": {
+          "type": "string",
+          "enum": ["ACTIVE", "INACTIVE"]
+        },
+        "name": {
+          "type": "string",
+          "description": "Display label for the group"
+        },
+        "key": {
+          "type": "string",
+          "description": "Stable identifier for the group"
+        },
+        "suggestionItem": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/SuggestionItem"
+          }
+        }
+      },
+      "required": ["status", "name", "key", "suggestionItem"]
+    },
+    "SuggestionItem": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$",
+          "description": "UUID v4, immutable"
+        },
+        "revision": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "Version number, increment on each edit"
+        },
+        "createdDate": {
+          "type": "string",
+          "format": "date-time",
+          "description": "ISO 8601 timestamp in UTC"
+        },
+        "updatedDate": {
+          "type": "string",
+          "format": "date-time",
+          "description": "ISO 8601 timestamp in UTC"
+        },
+        "createdBy": {
+          "type": "string",
+          "description": "Agent or human identifier"
+        },
+        "updatedBy": {
+          "type": "string",
+          "description": "Agent or human identifier"
+        },
+        "status": {
+          "type": "string",
+          "enum": ["DRAFT", "IN_REVIEW", "CHANGES_REQUESTED", "APPROVED", "ACTIVE", "INACTIVE"],
+          "description": "Lifecycle status of the item"
+        },
+        "statusReason": {
+          "type": "string",
+          "description": "Short reason for status change"
+        },
+        "index": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Order position in the list"
+        },
+        "keywords": {
+          "type": "string",
+          "description": "Semicolon-separated keywords, bilingual"
+        },
+        "label": {
+          "type": "string",
+          "description": "Category label (lowercase)"
+        },
+        "header": {
+          "type": "string",
+          "minLength": 48,
+          "maxLength": 80,
+          "description": "Compelling title"
+        },
+        "contentShort": {
+          "type": "string",
+          "maxLength": 120,
+          "description": "Teaser text without HTML"
+        },
+        "contentLong": {
+          "type": "string",
+          "description": "HTML body with allowed tags only"
+        },
+        "imagePath": {
+          "type": "string",
+          "format": "uri",
+          "pattern": "^https://",
+          "description": "HTTPS URL for image"
+        },
+        "readingFeatureEnabled": {
+          "type": "boolean",
+          "description": "Enable reading feature"
+        },
+        "parameter": {
+          "type": "array",
+          "default": [],
+          "description": "Optional parameters"
+        },
+        "readCount": {
+          "type": "integer",
+          "minimum": 0,
+          "default": 0
+        },
+        "likedCount": {
+          "type": "integer",
+          "minimum": 0,
+          "default": 0
+        },
+        "bookmarkedCount": {
+          "type": "integer",
+          "minimum": 0,
+          "default": 0
+        },
+        "review": {
+          "$ref": "#/definitions/Review"
+        }
+      },
+      "required": [
+        "id",
+        "revision",
+        "createdDate",
+        "updatedDate",
+        "createdBy",
+        "updatedBy",
+        "status",
+        "statusReason",
+        "index",
+        "keywords",
+        "label",
+        "header",
+        "contentShort",
+        "contentLong",
+        "imagePath",
+        "readingFeatureEnabled",
+        "parameter",
+        "readCount",
+        "likedCount",
+        "bookmarkedCount"
+      ]
+    },
+    "Review": {
+      "type": "object",
+      "properties": {
+        "medical": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/ReviewComment"
+          }
+        },
+        "product": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/ReviewComment"
+          }
+        },
+        "context": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/ReviewComment"
+          }
+        }
+      },
+      "required": ["medical", "product", "context"]
+    },
+    "ReviewComment": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Unique comment identifier"
+        },
+        "author": {
+          "type": "string",
+          "description": "Reviewer name"
+        },
+        "comment": {
+          "type": "string",
+          "description": "Review comment text"
+        },
+        "severity": {
+          "type": "string",
+          "enum": ["low", "medium", "high"]
+        },
+        "field": {
+          "type": "string",
+          "description": "Field path being reviewed"
+        },
+        "proposed": {
+          "description": "Proposed change (string or object)"
+        },
+        "disposition": {
+          "type": "string",
+          "enum": ["open", "accepted", "rejected"]
+        }
+      },
+      "required": ["id", "author", "comment", "severity", "field", "disposition"]
+    }
+  }
+}

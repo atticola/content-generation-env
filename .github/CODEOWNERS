@@ -1,0 +1,14 @@
+# CODEOWNERS file
+# Define who needs to review changes to different parts of the repository
+
+# Medical reviewers must approve changes to the data files
+/data/ @medical-reviewers
+
+# All reviewer types must approve review files
+/reviews/ @medical-reviewers @product-reviewers @content-editors
+
+# Platform maintainers own the agent configuration
+/agent/ @platform-maintainers
+
+# Schema changes need platform review
+/schemas/ @platform-maintainers

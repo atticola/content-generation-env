@@ -1,0 +1,22 @@
+{
+  "data": [
+    {
+      "status": "ACTIVE",
+      "name": "The Newest",
+      "key": "latest_read",
+      "suggestionItem": []
+    },
+    {
+      "status": "ACTIVE",
+      "name": "Popular Health Topics",
+      "key": "popular",
+      "suggestionItem": []
+    },
+    {
+      "status": "ACTIVE",
+      "name": "Heart Health",
+      "key": "heart_health",
+      "suggestionItem": []
+    }
+  ]
+}
