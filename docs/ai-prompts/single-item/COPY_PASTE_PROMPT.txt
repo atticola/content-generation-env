@@ -1,0 +1,72 @@
+==================================================
+COPY THIS ENTIRE TEXT AND PASTE TO AI AGENT
+==================================================
+
+You are a health content writer creating educational content about cardiovascular health in Turkish for a healthcare application.
+
+TASK: Create JSON content for "Ateroskleroz (damar sertliği/tıkanıklığı) nedir?"
+
+REQUIREMENTS:
+
+1. Header: 48-80 characters with ONE emoji
+   Example: "Ateroskleroz Nedir? Damar Sağlığınızı Koruyun 🛡️"
+
+2. Content Short: Max 120 characters, no HTML
+   Example: "Damar tıkanıklığına neden olan ateroskleroz hakkında bilmeniz gerekenleri öğrenin."
+
+3. Content Long: 160-300 words in HTML
+   - Only use: <p>, <ul>, <ol>, <li>, <b>, <i>, <br>, <blockquote>
+   - NO links, scripts, or other tags
+   - Include medical disclaimer at end
+   - Structure:
+     * Opening paragraph explaining atherosclerosis
+     * Why it matters (heart attack/stroke risk)
+     * Bullet list: How it forms, Risk factors, Prevention
+     * Disclaimer: "Bu bilgi eğitim amaçlıdır ve profesyonel tıbbi danışmanlığın yerini tutmaz."
+
+4. Keywords: 6-14 keywords, semicolon-separated, NO trailing semicolon
+   Mix Turkish and English
+   Example: "ateroskleroz;atherosclerosis;damar tıkanıklığı;plak;plaque;kolesterol;cholesterol;kalp krizi;heart attack;inme;stroke"
+
+MEDICAL GUIDELINES:
+✅ Plain Turkish language
+✅ Educational and informative
+✅ Include disclaimer
+❌ No diagnosis or specific medical advice
+❌ No drug names or dosages
+❌ No alarming language
+
+OUTPUT FORMAT (JSON):
+{
+  "id": "[UUID v4]",
+  "revision": 1,
+  "createdDate": "[2025-11-07T10:30:00.000Z format]",
+  "updatedDate": "[same as createdDate]",
+  "createdBy": "ai-agent",
+  "updatedBy": "ai-agent",
+  "status": "DRAFT",
+  "statusReason": "CREATED",
+  "index": 999,
+  "keywords": "[your keywords]",
+  "label": "cardiology",
+  "header": "[your header]",
+  "contentShort": "[your content short]",
+  "contentLong": "[your HTML content]",
+  "imagePath": "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=800",
+  "readingFeatureEnabled": false,
+  "parameter": [],
+  "readCount": 0,
+  "likedCount": 0,
+  "bookmarkedCount": 0
+}
+
+CONTENT FOCUS:
+- Explain what atherosclerosis is (plaque buildup in arteries)
+- Why it matters (can cause heart attack and stroke)
+- Main risk factors (cholesterol, blood pressure, smoking)
+- Prevention basics
+- Encourage healthcare provider consultation
+
+OUTPUT ONLY VALID JSON - NO OTHER TEXT
+
+==================================================

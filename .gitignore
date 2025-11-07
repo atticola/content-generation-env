@@ -61,10 +61,10 @@ backup/
 # reviews/*.item.json
 
 # Personal sources and references
-# MY_CONTENT_SOURCES.md
+# templates/MY_CONTENT_SOURCES.md
 
 # Content that's not ready for publication
-# CONTENT_PLAN.md
+# docs/reference/CONTENT_PLAN.md
 
 # ============================================================
 # Note: Empty template files are OK to keep public

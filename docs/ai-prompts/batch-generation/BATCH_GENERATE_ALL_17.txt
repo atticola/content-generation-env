@@ -1,0 +1,223 @@
+==================================================
+BATCH CONTENT GENERATION - ALL 17 REMAINING ITEMS
+==================================================
+
+You are a health content writer creating educational content about cardiovascular health in Turkish for a healthcare application.
+
+TASK: Generate JSON content for 17 health education topics (Items #2-18)
+
+CRITICAL REQUIREMENTS FOR EACH ITEM:
+
+1. Header: 48-80 characters with ONE emoji
+2. Content Short: Max 120 characters, no HTML
+3. Content Long: 160-300 words in HTML
+   - ONLY these tags: <p>, <ul>, <ol>, <li>, <b>, <i>, <br>, <blockquote>
+   - NO <a>, <script>, <style>, <iframe>, or other tags
+   - MUST include disclaimer: "Bu bilgi eğitim amaçlıdır ve profesyonel tıbbi danışmanlığın yerini tutmaz."
+4. Keywords: 6-14 keywords, semicolon-separated, NO trailing semicolon
+   - Mix Turkish and English
+5. Image Path: Use "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=800"
+
+MEDICAL GUIDELINES:
+✅ Plain Turkish language
+✅ Educational and informative
+✅ Include disclaimer in each item
+❌ No diagnosis or specific medical advice
+❌ No drug names or dosages
+❌ No alarming language
+
+OUTPUT FORMAT:
+Provide a JSON array with 17 objects. Each object must have ALL these fields:
+- id: UUID v4 (generate unique for each)
+- revision: 1
+- createdDate: "2025-11-07T10:30:00.000Z"
+- updatedDate: "2025-11-07T10:30:00.000Z"
+- createdBy: "ai-agent"
+- updatedBy: "ai-agent"
+- status: "DRAFT"
+- statusReason: "CREATED"
+- index: 999
+- keywords: [your keywords]
+- label: [see below for each item]
+- header: [your header]
+- contentShort: [your content short]
+- contentLong: [your HTML content]
+- imagePath: "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=800"
+- readingFeatureEnabled: false
+- parameter: []
+- readCount: 0
+- likedCount: 0
+- bookmarkedCount: 0
+
+==================================================
+17 TOPICS TO CREATE:
+==================================================
+
+ITEM #2: Kan Yağları Nedir ve Çeşitleri
+Group: heart_health
+Label: lipids
+Focus: LDL, HDL, triglycerides, non-HDL cholesterol, why they matter
+Keywords example: kan yağları;lipids;LDL;HDL;trigliserit;triglycerides;kolesterol;cholesterol;lipid profili;lipid panel
+
+ITEM #3: LDL Kolesterol ve Kalp Hastalıkları
+Group: heart_health
+Label: lipids
+Focus: LDL's causal role in heart disease, plaque formation, lowering importance
+Keywords example: LDL;LDL kolesterol;kötü kolesterol;bad cholesterol;kalp hastalığı;heart disease;ateroskleroz;plak;plaque
+
+ITEM #4: İyi ve Kötü Kolesterol Kavramı
+Group: heart_health
+Label: lipids
+Focus: HDL (good) vs LDL (bad), their different roles, balance
+Keywords example: HDL;LDL;iyi kolesterol;kötü kolesterol;good cholesterol;bad cholesterol;kolesterol dengesi;lipid balance
+
+ITEM #5: Türkiye'de Kalp ve Damar Hastalıkları
+Group: popular
+Label: public-health
+Focus: CVD awareness in Turkey, prevention importance, positive/motivating tone
+Keywords example: Türkiye;Turkey;kalp hastalıkları;heart disease;kardiyovasküler;cardiovascular;farkındalık;awareness;önleme;prevention
+
+ITEM #6: Kalp Krizi Nasıl Oluşur?
+Group: heart_health
+Label: cardiology
+Focus: Plaque rupture, thrombosis, blocked blood flow, emergency nature
+Keywords example: kalp krizi;heart attack;miyokard enfarktüsü;myocardial infarction;plak yırtılması;pıhtı;blood clot;koroner;coronary
+
+ITEM #7: İnme Nasıl Oluşur?
+Group: heart_health
+Label: neurology
+Focus: Ischemic vs hemorrhagic stroke, brain blood flow, emergency, FAST signs
+Keywords example: inme;stroke;iskemik inme;ischemic stroke;hemorajik inme;beyin;brain;felç;paralysis;FAST;acil
+
+ITEM #8: Kalp Krizi Önlenebilir Mi?
+Group: heart_health
+Label: prevention
+Focus: Yes it's preventable, risk factor control, lifestyle, positive/empowering
+Keywords example: kalp krizi;önleme;prevention;koruyucu önlemler;risk faktörleri;risk factors;yaşam tarzı;lifestyle;sağlıklı yaşam
+
+ITEM #9: Genç Yaşta Kalp Krizi Sebepleri
+Group: heart_health
+Label: cardiology
+Focus: FH, smoking, metabolic risks, substance use, early screening importance
+Keywords example: genç yaşta kalp krizi;young heart attack;erken kalp krizi;ailesel hiperkolesterolemi;FH;sigara;smoking;genetik
+
+ITEM #10: Belirtisiz Kalp Krizi - Gerçekçi Mi?
+Group: popular
+Label: cardiology
+Focus: Silent ischemia concept, some have mild symptoms, screening importance, balanced tone
+Keywords example: sessiz iskemi;silent ischemia;belirtisiz kalp krizi;asemptomatik;asymptomatic;tarama;screening;risk değerlendirmesi
+
+ITEM #11: Günlük Hayatta Kalp Sağlığı
+Group: popular
+Label: lifestyle
+Focus: Physical activity, diet, sleep, stress, smoking cessation, practical tips
+Keywords example: kalp sağlığı;heart health;yaşam tarzı;lifestyle;egzersiz;exercise;sağlıklı beslenme;healthy diet;stres yönetimi
+
+ITEM #12: Kalp Hastalığı Riski - Herkeste Aynı mı?
+Group: heart_health
+Label: risk
+Focus: Risk varies by individual, risk factors, assessment tools exist, consult provider
+Keywords example: risk değerlendirmesi;risk assessment;kardiyovasküler risk;cardiovascular risk;risk faktörleri;bireysel risk;personalized risk
+
+ITEM #13: LDL ve Trigliserid Farkı
+Group: heart_health
+Label: lipids
+Focus: Different lipid types, different roles and targets, both important
+Keywords example: LDL;trigliserit;triglycerides;fark;difference;kan yağları;lipids;kolesterol;lipid paneli
+
+ITEM #14: Diyabet ve Kalp-Damar Sağlığı
+Group: heart_health
+Label: diabetes
+Focus: Diabetes affects more than blood sugar, diabetic dyslipidemia, increased CV risk
+Keywords example: diyabet;diabetes;diyabetik dislipidemi;diabetic dyslipidemia;kalp hastalığı;kardiyovasküler risk;kan şekeri;damar sağlığı
+
+ITEM #15: LDL Hedefleri Kişisel mi?
+Group: heart_health
+Label: lipids
+Focus: LDL targets vary by risk, high risk needs lower LDL, individualized treatment
+Keywords example: LDL hedefleri;LDL targets;bireysel hedefler;personalized targets;risk bazlı hedefler;kolesterol tedavisi
+
+ITEM #16: Lipid Düşürücü Tedaviler
+Group: heart_health
+Label: therapy
+Focus: Classes of medications exist, statins most common, importance of treatment, NO DOSING
+Keywords example: lipid tedavisi;lipid therapy;statinler;statins;kolesterol ilacı;cholesterol medication;kalp koruma
+
+ITEM #17: Ailesel Hiperkolesterolemi (FH)
+Group: heart_health
+Label: genetics
+Focus: Genetic high cholesterol, hereditary, early screening, family screening, manageable
+Keywords example: ailesel hiperkolesterolemi;familial hypercholesterolemia;FH;genetik;genetic;kalıtsal;hereditary;yüksek kolesterol;tarama
+
+ITEM #18: Yaşam Tarzı ve Tedaviye Devam
+Group: heart_health
+Label: adherence
+Focus: Medication adherence, lifestyle consistency, regular follow-up, long-term health
+Keywords example: tedaviye uyum;medication adherence;yaşam tarzı;lifestyle;tedavi devamlılığı;takip;follow-up;kalp sağlığı
+
+==================================================
+CONTENT STRUCTURE TEMPLATES:
+==================================================
+
+Generic Template:
+<p><b>[Main Topic]</b></p>
+<p>[1-2 sentence introduction]</p>
+<ul>
+  <li><b>[Key point 1 title]:</b> [explanation]</li>
+  <li><b>[Key point 2 title]:</b> [explanation]</li>
+  <li><b>[Key point 3 title]:</b> [explanation]</li>
+</ul>
+<p><i>Bu bilgi eğitim amaçlıdır ve profesyonel tıbbi danışmanlığın yerini tutmaz.</i></p>
+
+Medical Explainer Template:
+<p><b>[Condition/Topic]</b></p>
+<p>[Definition in 1-2 sentences, plain language]</p>
+<p><b>Neden önemli:</b> [Risk/impact]</p>
+<ol>
+  <li><b>[Aspect 1]:</b> [details]</li>
+  <li><b>[Aspect 2]:</b> [details]</li>
+  <li><b>[Aspect 3]:</b> [details]</li>
+</ol>
+<p><i>Bu bilgi eğitim amaçlıdır ve profesyonel tıbbi danışmanlığın yerini tutmaz.</i></p>
+
+==================================================
+VALIDATION BEFORE OUTPUT:
+==================================================
+
+For EACH of the 17 items, verify:
+✓ Header is 48-80 characters (COUNT!)
+✓ Content short is ≤ 120 characters
+✓ Content long is 160-300 words
+✓ Keywords: 6-14 items, NO trailing semicolon
+✓ Only allowed HTML tags used
+✓ All HTML tags closed
+✓ Medical disclaimer included
+✓ UUID is unique for each item
+✓ All required fields present
+
+==================================================
+OUTPUT:
+==================================================
+
+Provide a JSON array starting with [ and ending with ].
+Each object in the array represents one content item (#2-18).
+Ensure valid JSON syntax (proper commas, quotes, brackets).
+
+Example structure:
+[
+  {
+    "id": "uuid-for-item-2",
+    "revision": 1,
+    ...item 2 fields...
+  },
+  {
+    "id": "uuid-for-item-3",
+    "revision": 1,
+    ...item 3 fields...
+  },
+  ...continue for all 17 items...
+]
+
+OUTPUT ONLY THE JSON ARRAY - NO OTHER TEXT
+
+BEGIN GENERATION NOW:

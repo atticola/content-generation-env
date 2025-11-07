@@ -1,0 +1,252 @@
+==================================================
+AI PROMPT: Generate Image Prompts for All 18 Items
+==================================================
+
+You are an expert in creating image generation prompts for medical/health content.
+
+TASK: Generate Midjourney/DALL-E image prompts for 18 health education topics
+
+==================================================
+IMAGE SPECIFICATIONS (CRITICAL):
+==================================================
+
+Technical Requirements:
+- Aspect Ratio: 16:9 (horizontal)
+- Safe Zone: 9:9 center square (MAIN SUBJECT MUST BE HERE)
+- Resolution: 1280x720px recommended
+- File Format: WebP or JPEG
+- Target Size: 50-150KB
+- Style: Medical illustration or clean minimalist
+
+Visual Requirements:
+- ❌ NO TEXT whatsoever
+- ❌ NO faces or identifiable people
+- ❌ NO graphic medical imagery
+- ✅ Simple, clean, professional
+- ✅ Centered composition (safe zone)
+- ✅ Relevant to health topic
+- ✅ Soft, trustworthy colors
+
+Safe Zone Explanation:
+┌─────────────────────────────────┐
+│    │                    │       │  ← 16:9 Full Canvas
+│    │    CORE 9:9       │       │
+│    │   SAFE ZONE       │       │
+│    │  (MAIN FOCUS)     │       │
+│    │                   │       │
+└─────────────────────────────────┘
+
+Main subject MUST be in center 9:9 area!
+
+==================================================
+PROMPT STRUCTURE:
+==================================================
+
+Each prompt should follow this format:
+
+"[Main Subject], [Style Descriptor], [Composition Details], [Color Palette],
+[Mood/Atmosphere], centered composition with main focus in safe zone, horizontal
+16:9 format, no text, professional medical aesthetic, minimalist clean design"
+
+==================================================
+18 TOPICS TO GENERATE PROMPTS FOR:
+==================================================
+
+1. Ateroskleroz (Atherosclerosis)
+   Focus: Arterial plaque buildup, vascular health
+
+2. Kan Yağları (Blood Lipids Types)
+   Focus: LDL, HDL, triglycerides, different lipid types
+
+3. LDL ve Kalp Hastalığı (LDL & Heart Disease)
+   Focus: LDL's role in heart disease
+
+4. İyi vs Kötü Kolesterol (Good vs Bad Cholesterol)
+   Focus: HDL vs LDL, balance concept
+
+5. Türkiye'de KKH (CVD in Turkey)
+   Focus: Awareness, prevention, public health
+
+6. Kalp Krizi (Heart Attack)
+   Focus: How heart attacks occur, plaque rupture
+
+7. İnme (Stroke)
+   Focus: Brain, blood flow, ischemic event
+
+8. Kalp Krizi Önleme (Heart Attack Prevention)
+   Focus: Protection, preventive care, shielding
+
+9. Genç Yaşta Kalp Krizi (Young Heart Attacks)
+   Focus: Early onset, youth, genetic factors
+
+10. Belirtisiz Kalp Krizi (Silent Heart Attacks)
+    Focus: Hidden risk, screening, awareness
+
+11. Günlük Kalp Sağlığı (Daily Heart Health)
+    Focus: Lifestyle, daily habits, wellness
+
+12. Risk Hesaplama (Risk Assessment)
+    Focus: Measurement, assessment, personalized risk
+
+13. LDL ve Trigliserid Farkı (LDL vs Triglycerides)
+    Focus: Different lipid types, distinction
+
+14. Diyabet ve Damar Sağlığı (Diabetes & Vascular Health)
+    Focus: Diabetes impact on vessels, metabolic health
+
+15. LDL Hedefleri (LDL Targets)
+    Focus: Personalized goals, individual targets
+
+16. Lipid Düşürücü Tedavi (Lipid Therapy)
+    Focus: Treatment, medication, therapeutic approach
+
+17. Ailesel Hiperkolesterolemi (Familial Hypercholesterolemia)
+    Focus: Genetic, hereditary, family screening
+
+18. Tedaviye Devam (Treatment Adherence)
+    Focus: Consistency, routine, long-term care
+
+==================================================
+COLOR PALETTE GUIDANCE:
+==================================================
+
+Cardiology/Heart Topics:
+- Blues (trust, calm): #2C5F8D, #4A90E2
+- Teals: #26A69A, #00897B
+- Soft reds (heart): #E57373, #EF9A9A
+
+Lipids/Cholesterol Topics:
+- Blues and greens: #3F51B5, #4CAF50
+- Golds (LDL): #FFB74D, #FFA726
+- Balance: Blues + golds together
+
+Prevention/Lifestyle Topics:
+- Fresh greens: #66BB6A, #81C784
+- Vibrant blues: #42A5F5
+- Warm oranges: #FFB74D
+
+Risk/Assessment Topics:
+- Professional blues: #1976D2, #1565C0
+- Neutral grays: #78909C
+- Accent warnings (subtle): #FF9800
+
+Treatment Topics:
+- Medical blues: #1E88E5, #1976D2
+- Trustworthy greens: #43A047
+- Supportive purples: #7E57C2
+
+==================================================
+STYLE KEYWORDS TO USE:
+==================================================
+
+Medical Illustration Styles:
+- "medical illustration style"
+- "editorial health illustration"
+- "scientific diagram aesthetic"
+- "modern medical graphic"
+- "healthcare visual design"
+
+Artistic Styles:
+- "geometric abstract"
+- "gradient art"
+- "minimalist design"
+- "clean vector style"
+- "isometric medical"
+
+Composition:
+- "centered composition"
+- "symmetrical balance"
+- "negative space"
+- "breathing room"
+- "safe zone centered"
+
+Quality:
+- "professional medical aesthetic"
+- "clean minimalist design"
+- "high-quality rendering"
+- "sharp and clear"
+- "web-optimized visual"
+
+==================================================
+EXAMPLES OF GOOD PROMPTS:
+==================================================
+
+Example 1 (Atherosclerosis):
+"Abstract cross-section of an artery showing smooth inner walls with subtle
+plaque formation, medical illustration style, perfectly centered composition,
+soft blue and light coral gradients, clean minimalist design, flowing organic
+shapes, professional medical aesthetic, centered in safe zone, horizontal 16:9
+format, no text, modern health visualization"
+
+Example 2 (Good vs Bad Cholesterol):
+"Abstract balance scale with geometric spheres representing HDL and LDL,
+medical illustration style, perfectly centered and symmetrical, blue spheres
+on one side and golden spheres on other, clean minimalist design, professional
+medical aesthetic, balanced composition in safe zone, horizontal 16:9 format,
+no text, equilibrium concept"
+
+Example 3 (Heart Attack Prevention):
+"Stylized geometric heart protected by circular shield elements, medical
+illustration style, centered composition with clear focus, soft blue and teal
+gradients with protective symbols, minimalist clean design, professional medical
+aesthetic, shield and heart centered in safe zone, horizontal 16:9 format, no
+text, preventive care concept"
+
+Example 4 (Daily Heart Health):
+"Abstract representation of healthy lifestyle elements, flowing organic shapes
+suggesting movement and vitality, medical illustration style, centered balanced
+composition, fresh green and sky blue gradients, clean minimalist design,
+professional wellness aesthetic, main elements centered in safe zone, horizontal
+16:9 format, no text, daily wellness concept"
+
+==================================================
+OUTPUT FORMAT:
+==================================================
+
+Provide a JSON array with 18 objects, each containing:
+
+{
+  "topicNumber": 1,
+  "topicName": "Ateroskleroz",
+  "imagePrompt": "[Your detailed image prompt here]",
+  "primaryColors": ["#2C5F8D", "#E57373"],
+  "style": "medical illustration",
+  "keyElements": ["artery", "plaque", "flow"]
+}
+
+==================================================
+VALIDATION CHECKLIST:
+==================================================
+
+For EACH prompt, verify:
+- [ ] Mentions "16:9" or "horizontal"
+- [ ] Mentions "centered" or "safe zone"
+- [ ] Specifies "no text"
+- [ ] Includes color palette
+- [ ] Describes style clearly
+- [ ] Relates to health topic
+- [ ] Emphasizes simplicity
+- [ ] Professional/medical aesthetic
+- [ ] Under 300 characters (concise but detailed)
+
+==================================================
+IMPORTANT REMINDERS:
+==================================================
+
+1. SAFE ZONE: Main subject MUST be in center 9:9 area
+2. NO TEXT: Explicitly state "no text" in every prompt
+3. NO FACES: Avoid identifiable people
+4. SIMPLICITY: Less is more - clean and clear
+5. PROFESSIONALISM: Medical/health context
+6. COLORS: Soft, trustworthy, not alarming
+7. COMPOSITION: Centered and balanced
+8. FORMAT: Always 16:9 horizontal
+
+==================================================
+BEGIN GENERATION:
+==================================================
+
+Generate detailed image prompts for all 18 topics following the specifications
+above. Output ONLY the JSON array - NO OTHER TEXT.
+
+Start now:
