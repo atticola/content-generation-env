@@ -37,23 +37,78 @@
 ## 🎨 Visual Style Guidelines
 
 ### General Style
-- **Type**: Medical illustration style or clean photography
-- **Mood**: Professional, calm, trustworthy
-- **Complexity**: Simple, not cluttered
-- **Color Palette**: Soft, health-related colors
-  - Blues (trust, calm)
-  - Greens (health, nature)
-  - Warm neutrals (approachable)
-- **Avoid**: Harsh reds, alarming imagery, overly clinical
+- **Type**: Modern medical illustration, editorial illustration, or gradient art
+- **Mood**: Professional yet approachable, calm, trustworthy, engaging
+- **Complexity**: Clean and elegant, not cluttered but not too minimal
+- **Visual Appeal**: Eye-catching, clickable, polished
+- **Color Palette**: Rich yet soft, health-related colors with depth
+  - Blues (trust, calm) - use gradients, not flat
+  - Greens (health, nature) - vibrant but not neon
+  - Warm neutrals (approachable) - with subtle color accents
+  - Gold/copper tones for highlights
+  - Depth through layering and gradients
+- **Avoid**: Harsh reds, alarming imagery, overly clinical, flat colors, boring stock photos
 
 ### Composition
 - ✅ **Main subject centered** (in 9:9 core)
-- ✅ **Simple background** (can extend to 16:9 edges)
-- ✅ **Negative space** around main subject
+- ✅ **Layered depth** - foreground, midground, background elements
+- ✅ **Dynamic angles** - subtle perspective, not just flat
+- ✅ **Negative space** - breathing room but purposeful
+- ✅ **Visual interest** - gradients, lighting effects, subtle details
 - ✅ **Symmetrical or balanced** composition
+- ✅ **Polished finish** - professional quality that stands out
 - ❌ **NO text** or typography
 - ❌ **NO detailed charts/graphs**
 - ❌ **NO faces** (privacy/universality)
+- ❌ **NO overly simple shapes** (boring circles/squares alone)
+
+---
+
+## ✨ Visual Appeal Enhancement
+
+### Key Elements for Clickability
+1. **Depth & Dimension**
+   - Use gradients (2-3 colors blending)
+   - Add subtle shadows or glows
+   - Layer elements (foreground/background)
+   - Suggest 3D without being too literal
+
+2. **Color Richness**
+   - Avoid single flat colors
+   - Use color transitions
+   - Add complementary accent colors
+   - Create visual warmth through color harmony
+
+3. **Professional Polish**
+   - Smooth rendering (no pixelation)
+   - Refined edges and shapes
+   - Balanced saturation (not too dull, not too bright)
+   - Editorial illustration quality
+
+4. **Visual Interest Points**
+   - Add subtle details that reward closer look
+   - Use lighting effects (soft glows, highlights)
+   - Include organic shapes mixed with geometric
+   - Create movement suggestion (flow, direction)
+
+5. **Emotional Connection**
+   - Warm, inviting color temperature
+   - Hopeful and positive visual language
+   - Approachable yet professional
+   - Suggests health improvement journey
+
+### Style Keywords for AI Prompts
+Use these to enhance visual appeal:
+- "editorial illustration style"
+- "gradient art with depth"
+- "modern medical aesthetic"
+- "polished and refined"
+- "soft lighting with highlights"
+- "layered composition"
+- "rich color palette"
+- "professional health publication quality"
+- "engaging and inviting"
+- "subtle 3D depth"
 
 ---
 

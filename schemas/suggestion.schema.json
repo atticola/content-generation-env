@@ -111,6 +111,10 @@
           "pattern": "^https://",
           "description": "HTTPS URL for image"
         },
+        "imagePrompt": {
+          "type": "string",
+          "description": "AI prompt used to generate the image"
+        },
         "readingFeatureEnabled": {
           "type": "boolean",
           "description": "Enable reading feature"

@@ -1,0 +1,211 @@
+GENERATE ALL 18 HEALTH EDUCATION CONTENT ITEMS - ENHANCED VERSION
+
+You are creating 18 Turkish health education articles about cardiovascular health.
+
+===========================
+CRITICAL REQUIREMENTS
+===========================
+
+1. **PRESERVE EXACT ORIGINAL TITLES** - Do not modify the Turkish titles provided
+2. Generate visually APPEALING image prompts (not simple/flat)
+3. Include all required fields including imagePrompt
+4. Follow strict medical content guidelines
+5. Output valid JSON array
+
+===========================
+18 CONTENT TOPICS (EXACT TITLES TO USE)
+===========================
+
+1. Ateroskleroz (Damar Sertliği/Tıkanıklığı) Nedir?
+2. Kan Yağları Nedir ve Çeşitleri Nelerdir?
+3. LDL Kolesterol ve Kalp Hastalıkları
+4. İyi Kolesterol ve Kötü Kolesterol Kavramı
+5. Türkiye'de Kalp ve Damar Hastalıkları Durumu
+6. Kalp Krizi Nasıl Oluşur?
+7. İnme Nasıl Oluşur?
+8. Kalp Krizi Önlenebilir Mi?
+9. Genç Yaşta Kalp Krizinin Sebepleri
+10. Hiçbir Şikâyeti Yokken Kalp Krizi Geçirdi - Bu Gerçekçi Mi?
+11. Kalp Sağlığı İçin Günlük Hayatta Neler Yapabiliriz?
+12. Kalp Damar Hastalığında Risk Nasıl Hesaplanır?
+13. LDL ve Trigliserid Farkı
+14. Diyabet ve Kalp-Damar Sağlığı (Diyabetik Dislipidemi)
+15. LDL Hedefleri Kişisel mi?
+16. Lipid Düşürücü Tedaviler
+17. Ailesel Hiperkolesterolemi (FH)
+18. Yaşam Tarzı Değişikliği ve Tedaviye Devam Önemi
+
+===========================
+CONTENT STRUCTURE FOR EACH ITEM
+===========================
+
+### Header (48-80 characters)
+- Use the EXACT title from the list above
+- May add one emoji if it fits naturally
+- Must be between 48-80 characters
+
+### Content Short (max 120 characters)
+- Compelling teaser text
+- No HTML tags
+- Clear benefit or question
+
+### Content Long (Turkish, 160-300 words)
+- Educational and supportive tone
+- Use allowed HTML tags: <p>, <ul>, <li>, <strong>, <em>, <br>
+- Structure:
+  - Opening paragraph (problem/topic introduction)
+  - 2-3 body paragraphs or bullet lists
+  - Closing paragraph (takeaway/action)
+- Include disclaimer at end
+
+### Keywords (6-14 bilingual keywords)
+- Format: turkish;english;turkish;english;...
+- Semicolon-separated
+- NO trailing semicolon
+- Mix of specific and general terms
+
+### Image Prompt (NEW FIELD - CRITICAL!)
+- 100-150 word detailed prompt for image generation
+- Must specify: 16:9 format, centered 9:9 safe zone, no text
+- Use enhanced visual language:
+  - "editorial illustration style"
+  - "gradient art with depth"
+  - "layered composition"
+  - "soft lighting with highlights"
+  - "polished and refined"
+  - "rich color palette"
+- Make it VISUALLY APPEALING and clickable
+- NOT simple or flat - add depth, layers, sophistication
+
+### Label
+Assign appropriate label:
+- cardiology
+- lipids
+- prevention
+- risk
+- lifestyle
+- therapy
+- genetics
+- adherence
+- diabetes
+- neurology
+- public-health
+
+===========================
+MEDICAL CONTENT GUIDELINES
+===========================
+
+✅ DO:
+- Explain medical concepts in simple Turkish
+- Use educational, supportive tone
+- Provide general health information
+- Emphasize prevention and awareness
+- Include "Sağlık profesyonelinizle görüşün" messaging
+- Focus on patient empowerment
+
+❌ DO NOT:
+- Provide diagnosis
+- Recommend specific dosages
+- Give treatment instructions
+- Replace medical consultation
+- Use alarming or fear-based language
+- Include specific drug names (unless essential, then generic only)
+
+===========================
+IMAGE PROMPT ENHANCEMENT GUIDELINES
+===========================
+
+BAD (too simple):
+"A simple blue circle representing a heart"
+
+GOOD (enhanced):
+"Editorial medical illustration of a stylized human heart rendered with layered gradient depth, transitioning from deep blue (#2C5AA0) at the center to soft teal (#4A9B9F) at the edges, surrounded by elegant flowing arterial lines suggesting healthy circulation, professional health publication quality with refined edges and polished finish, soft directional lighting creating subtle highlights and dimension, centered composition in 9:9 safe zone within horizontal 16:9 format, modern medical aesthetic with sophisticated visual appeal, engaging and inviting feel, optimized for web display at 1280x720px, no text or typography"
+
+Key elements for visual appeal:
+- Gradients and color transitions (specify hex codes)
+- Layered composition (foreground/midground/background)
+- Lighting effects (highlights, soft glows)
+- Professional polish and refined finish
+- Specific dimensions (1280x720px, 16:9, 9:9 safe zone)
+- Style keywords (editorial illustration, modern medical aesthetic)
+- Emotional tone (engaging, inviting, professional)
+
+===========================
+OUTPUT FORMAT
+===========================
+
+Generate a valid JSON array with 18 objects:
+
+```json
+[
+  {
+    "header": "Exact Turkish title from list (48-80 chars)",
+    "contentShort": "Teaser text max 120 chars",
+    "contentLong": "<p>Full Turkish content with HTML...</p>",
+    "keywords": "turkish;english;turkish;english",
+    "label": "cardiology",
+    "imagePath": "https://placeholder.example.com/image.jpg",
+    "imagePrompt": "Detailed 100-150 word image generation prompt with visual enhancement keywords...",
+    "group": "heart_health",
+    "readingFeatureEnabled": true
+  },
+  ...
+]
+```
+
+===========================
+GROUP ASSIGNMENT
+===========================
+
+Distribute across these groups:
+- **heart_health**: Items 1-4, 6-9, 12-18 (cardiovascular topics)
+- **popular**: Items 5, 10, 11 (general interest, lifestyle)
+
+===========================
+VALIDATION CHECKLIST
+===========================
+
+Before submitting, verify EACH item has:
+- [ ] Exact original Turkish title as header (48-80 chars)
+- [ ] ContentShort ≤ 120 characters
+- [ ] ContentLong 160-300 words in Turkish with proper HTML
+- [ ] 6-14 bilingual keywords (no trailing semicolon)
+- [ ] Appropriate label
+- [ ] ImagePrompt with enhanced visual description (100-150 words)
+- [ ] Valid imagePath (use placeholder for now)
+- [ ] Correct group assignment
+- [ ] Medical disclaimer included
+- [ ] No dosing or diagnostic information
+
+===========================
+EXAMPLE ITEM (for reference)
+===========================
+
+```json
+{
+  "header": "Ateroskleroz (Damar Sertliği/Tıkanıklığı) Nedir? 🛡️",
+  "contentShort": "Damar tıkanıklığına neden olan ateroskleroz hakkında bilmeniz gerekenleri öğrenin.",
+  "contentLong": "<p>Ateroskleroz, atardamarların iç duvarında plak adı verilen yağ ve diğer maddelerin birikmesiyle damarların sertleşmesi ve daralmasıdır. Bu durum, kan akışını kısıtlayarak kalp, beyin ve diğer organlara yeterli oksijen ulaşmasını engelleyebilir.</p><p><strong>Ateroskleroz nasıl gelişir?</strong></p><ul><li>Damar duvarında LDL kolesterol birikimi</li><li>İltihap ve plak oluşumu</li><li>Damarların elastikiyetinin azalması</li><li>Kan akışının yavaşlaması veya durması</li></ul><p>Risk faktörleri arasında yüksek kolesterol, yüksek tansiyon, sigara, diyabet ve hareketsiz yaşam tarzı yer alır. Ateroskleroz, kalp krizi ve inme gibi ciddi komplikasyonlara yol açabilir.</p><p>Önleme için sağlıklı beslenme, düzenli egzersiz, sigaradan kaçınma ve düzenli sağlık kontrolleri önemlidir. <em>Bu bilgiler eğitim amaçlıdır ve tıbbi tavsiye yerine geçmez. Sağlık durumunuz için doktorunuza danışın.</em></p>",
+  "keywords": "ateroskleroz;atherosclerosis;damar tıkanıklığı;plaque;plak;kolesterol;cholesterol;kalp krizi;heart attack;inme;stroke;damar sağlığı;vascular health",
+  "label": "cardiology",
+  "imagePath": "https://placeholder.example.com/ateroskleroz.jpg",
+  "imagePrompt": "Editorial medical illustration of an arterial cross-section showing smooth inner vessel walls with subtle anatomical texture, flowing blood cells represented as elegant spherical gradient elements in deep blues (#2C5AA0) and soft reds (#FF6B6B), layered composition with foreground cellular details and subtle background glow suggesting healthy circulation, professional health publication quality with refined edges and polished finish, soft directional lighting from upper left creating depth and dimension across the vessel wall, centered composition within 9:9 safe zone, rich color palette transitioning from deep cardiovascular blue to teal (#4A9B9F) with warm accent highlights, modern medical aesthetic with sophisticated visual appeal that invites engagement, horizontal 16:9 format optimized for web display at 1280x720px, no text or typography, clean professional medical illustration style suitable for healthcare education content, subtle three-dimensional depth without being overly literal or clinical",
+  "group": "heart_health",
+  "readingFeatureEnabled": true
+}
+```
+
+===========================
+CRITICAL REMINDERS
+===========================
+
+1. **DO NOT CHANGE THE TITLES** - Use exact Turkish titles from the list
+2. **ENHANCE IMAGE PROMPTS** - Make them visually rich and appealing (not flat/simple)
+3. **VALID JSON** - Ensure proper escaping of quotes and special characters
+4. **ALL 18 ITEMS** - Generate complete array with all topics
+5. **BILINGUAL KEYWORDS** - Turkish and English mixed
+6. **MEDICAL SAFETY** - No diagnosis, dosing, or treatment instructions
+
+===========================
+
+Generate all 18 items now as a valid JSON array.

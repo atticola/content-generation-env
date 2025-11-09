@@ -1,0 +1,159 @@
+GENERATE ENHANCED IMAGE PROMPTS FOR 18 HEALTH CONTENT ITEMS
+
+You are creating visually appealing, clickable image prompts for health education content.
+
+CRITICAL REQUIREMENTS:
+1. Images must be 16:9 horizontal format
+2. Main subject MUST be centered in 9:9 safe zone (center square)
+3. NO text or typography
+4. Rich, layered, visually engaging (NOT flat or overly simple)
+5. Professional medical editorial illustration style
+6. Eye-catching enough that users want to click
+
+VISUAL APPEAL GUIDELINES:
+- Use gradients and color depth (not flat colors)
+- Add layered composition (foreground/midground/background)
+- Include subtle lighting effects and highlights
+- Create visual interest through detail
+- Polished, professional finish
+- Engaging and inviting aesthetic
+
+STYLE KEYWORDS TO USE:
+- "editorial illustration style"
+- "gradient art with depth"
+- "layered composition"
+- "soft lighting with highlights"
+- "polished and refined"
+- "modern medical aesthetic"
+- "rich color palette"
+- "engaging and inviting"
+- "subtle 3D depth"
+- "professional health publication quality"
+
+---
+
+CONTENT ITEMS (USE EXACT TURKISH TITLES):
+
+1. **Ateroskleroz (Damar Sertliği/Tıkanıklığı) Nedir?**
+   Category: Cardiology
+   Visual Concept: Arterial cross-section with flowing elements
+
+2. **Kan Yağları Nedir ve Çeşitleri Nelerdir?**
+   Category: Lipids
+   Visual Concept: Abstract molecular structures, lipid particles
+
+3. **LDL Kolesterol ve Kalp Hastalıkları**
+   Category: Lipids/Cardiology
+   Visual Concept: Shield protecting heart, LDL particles
+
+4. **İyi Kolesterol ve Kötü Kolesterol Kavramı**
+   Category: Lipids
+   Visual Concept: Balance scales, HDL vs LDL contrast
+
+5. **Türkiye'de Kalp ve Damar Hastalıkları Durumu**
+   Category: Public Health
+   Visual Concept: Heart with Turkish cultural elements, awareness
+
+6. **Kalp Krizi Nasıl Oluşur?**
+   Category: Cardiology
+   Visual Concept: Heart with blocked artery visualization
+
+7. **İnme Nasıl Oluşur?**
+   Category: Neurology
+   Visual Concept: Brain with vascular network
+
+8. **Kalp Krizi Önlenebilir Mi?**
+   Category: Prevention
+   Visual Concept: Protected heart with shield elements
+
+9. **Genç Yaşta Kalp Krizinin Sebepleri**
+   Category: Cardiology/Risk
+   Visual Concept: Young heart with risk factor indicators
+
+10. **Hiçbir Şikâyeti Yokken Kalp Krizi Geçirdi - Bu Gerçekçi Mi?**
+    Category: Cardiology/Awareness
+    Visual Concept: Hidden/silent elements, subtle warning concept
+
+11. **Kalp Sağlığı İçin Günlük Hayatta Neler Yapabiliriz?**
+    Category: Lifestyle/Prevention
+    Visual Concept: Healthy lifestyle elements, daily wellness
+
+12. **Kalp Damar Hastalığında Risk Nasıl Hesaplanır?**
+    Category: Risk Assessment
+    Visual Concept: Risk spectrum, assessment visualization
+
+13. **LDL ve Trigliserid Farkı**
+    Category: Lipids
+    Visual Concept: Two different molecular structures compared
+
+14. **Diyabet ve Kalp-Damar Sağlığı (Diyabetik Dislipidemi)**
+    Category: Diabetes/Cardiology
+    Visual Concept: Glucose and heart connection
+
+15. **LDL Hedefleri Kişisel mi?**
+    Category: Lipids/Personalized Medicine
+    Visual Concept: Target with personalized elements
+
+16. **Lipid Düşürücü Tedaviler**
+    Category: Therapy
+    Visual Concept: Treatment pathway, medical care
+
+17. **Ailesel Hiperkolesterolemi (FH)**
+    Category: Genetics
+    Visual Concept: DNA helix with heart, family tree
+
+18. **Yaşam Tarzı Değişikliği ve Tedaviye Devam Önemi**
+    Category: Adherence/Lifestyle
+    Visual Concept: Continuous cycle, commitment journey
+
+---
+
+OUTPUT FORMAT:
+
+Generate a JSON array with 18 items. Each item must have:
+
+```json
+[
+  {
+    "id": 1,
+    "title": "Ateroskleroz (Damar Sertliği/Tıkanıklığı) Nedir?",
+    "imagePrompt": "Detailed Midjourney/DALL-E prompt here (100-150 words)",
+    "primaryColors": ["#2C5AA0", "#FF6B6B", "#F0F4F8"],
+    "style": "Editorial medical illustration with gradient depth",
+    "keyElements": ["arterial cross-section", "flow visualization", "layered composition"],
+    "technicalSpecs": "16:9 horizontal, 1280x720px, main subject centered in 9:9 safe zone, no text"
+  },
+  ...
+]
+```
+
+EXAMPLE ENHANCED PROMPT (for reference):
+
+"Detailed medical editorial illustration of an arterial cross-section, showing smooth inner vessel walls with subtle texture and flowing blood cells represented as elegant spherical gradient elements in deep blues and soft reds, layered composition with foreground focus and subtle background glow, professional health publication quality with refined edges and polished finish, soft directional lighting creating depth and dimension, centered composition in safe zone, rich color palette transitioning from deep blue (#2C5AA0) to teal (#4A9B9F) with warm red accents (#FF6B6B), modern medical aesthetic with visual sophistication, engaging and inviting feel, horizontal 16:9 format optimized for web display at 1280x720px, no text or typography, clean and professional medical illustration style suitable for healthcare education, subtle 3D depth without being overly literal"
+
+---
+
+REQUIREMENTS CHECKLIST FOR EACH PROMPT:
+
+- [ ] 16:9 horizontal format specified
+- [ ] 9:9 safe zone centering mentioned
+- [ ] No text explicitly stated
+- [ ] Gradient/layered composition described
+- [ ] Lighting effects included
+- [ ] Color palette defined (specific hex codes)
+- [ ] Professional/polished aesthetic emphasized
+- [ ] Visual depth and dimension described
+- [ ] Engaging and clickable feel conveyed
+- [ ] 100-150 words in length
+- [ ] Web optimization implied (1280x720px)
+
+---
+
+IMPORTANT:
+- Make each prompt UNIQUE and specific to its topic
+- Ensure prompts create VISUALLY APPEALING images that users want to click
+- Balance medical accuracy with aesthetic appeal
+- Use rich, sophisticated visual language
+- Avoid overly simple descriptions (no "just a circle" or "flat shape")
+
+Generate all 18 image prompts now following these specifications.
